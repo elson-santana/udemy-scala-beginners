@@ -5,9 +5,8 @@ object ValuesVariablesTypes extends App {
   val x: Int = 42
   println(x)
 
-  // VALS ARE IMMUTABLE
-
-  // COMPILER can infer types
+  // Vals are immutable
+  // Compiler can infer types
 
   val aString: String = "hello"
   val anotherString = "goodbye"
@@ -16,12 +15,14 @@ object ValuesVariablesTypes extends App {
   val aChar: Char = 'a'
   val anInt: Int = x
   val aShort: Short = 4613
-  val aLong: Long = 5273985273895237L
+  val aLong: Long = 565412654981651654L
   val aFloat: Float = 2.0f
   val aDouble: Double = 3.14
 
-  // variables
+
+  // Variables
   var aVariable: Int = 4
 
-  aVariable = 5 // side effects
+  aVariable = 5 // Side effects
+
 }
